@@ -1,0 +1,75 @@
+/* body{
+    background-image: linear-gradient(to bottom right, #827355,white);
+} */
+
+.navbar-light{
+    font-size: larger;
+    font-weight: 700;
+    color: #382f1d;
+}
+.mycontai{
+    background-color: #4d412900;
+    color: #2b2313;
+    font-weight: 600;
+}
+.mycard{
+    background-color: rgba(0, 0, 0, 0);
+    border: 0ch;
+}
+.card-footer{
+    background-color: #382f1d00;
+    border-top: 0ch;
+}
+@media (min-width: 768px) {
+    .mycarousel-inner {
+      display: flex;
+     
+    }
+    .mycarousel-item {
+      margin-right: 0;
+      flex: 0 0 33.333333%;
+      display: block;
+    }
+  }
+
+.mycard img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.mycarousel-inner{
+    padding: 1em;
+}
+.mycard1{
+    
+    background-color: #382f1d00;
+    border: none;
+}
+.mycard{
+    margin: 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    background-color: rgb(249, 242, 228);
+    border: none;
+}
+.mycarousel-control-prev, .mycarousel-control-next{
+    background-color: #e1e1e1ac;
+    color: #382f1d;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.btn-outline-light :hover{
+    color: #382f1d;
+
+    
+ } 
+.btn-outline-light{
+    color: #2b2313;
+    border-width: 0ch;
+   
+}
+
+
